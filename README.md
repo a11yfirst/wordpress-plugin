@@ -1,21 +1,14 @@
-CKEditor for WordPress
+A11yFirstEditor for WordPress
 ======================
 
-This plugin replaces the default WordPress editor with [CKEditor](http://ckeditor.com).
+This plugin replaces the default WordPress editor with A11yFirst plugins based on [CKEditor](http://ckeditor.com).
 
-## Maintenance status
 
-**Looking for maintainers**. The extension is currently not maintained. Use it at your own risk.
+# About extension
 
-If you would like to take over the development of this extension, then please contact me: w.walc /at/ cksource.com or [@w_walc](https://twitter.com/w_walc). If you are interested in co-maintaining CKEditor for WordPress, then contact me as well or simply send pull requests.
+For information about features, installation, upgrading and changelog check https://github.com/a11yfirst
 
-Anyone is welcome to contribute. Without your help the extension will not get any further updates.
-
-## About extension
-
-For information about features, installation, upgrading and changelog check https://wordpress.org/plugins/ckeditor-for-wordpress/
-
-### License
+## License
 
 Licensed under the GPL license.
 
