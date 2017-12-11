@@ -41,7 +41,7 @@ class a11yfirsteditor_wordpress {
 		);
 		$this->default_options = array(
 			'appearance' => array(
-				'skin' => 'moono',
+				'skin' => 'a11yfirst',
 				'uicolor' => 'default',
 				'uicolor_user' => '',
 				/* basic post settings */
@@ -82,7 +82,7 @@ class a11yfirsteditor_wordpress {
 				'style_path' => '',
 			),
 			'advanced' => array(
-				'load_method' => 'ckeditor.js',
+				'load_method' => 'a11yfirsteditor.js',
 				'load_timeout' => 0,
 				'native_spell_checker' => 't',
 				'scayt_autoStartup' => 'f',
@@ -339,7 +339,7 @@ class a11yfirsteditor_wordpress {
 				while (false !== ($fileName = readdir($dhandle))) {
 					if ($fileName != '.' && $fileName != '..' && is_dir($skins_directory . $fileName) && is_readable($skins_directory . $fileName) ) {
 						$skin = $fileName;
-						if ( (file_exists($skins_directory . $fileName) && $fileName == 'moono') ||
+						if ( (file_exists($skins_directory . $fileName) && $fileName == 'a11yfirst') ||
 							( file_exists($skins_directory . $fileName . '/skin.js')
 							&& file_exists($skins_directory . $fileName . '/editor.css')
 							&& file_exists($skins_directory . $fileName . '/dialog.css')
@@ -352,7 +352,7 @@ class a11yfirsteditor_wordpress {
 				closedir($dhandle);
 			}
 		}
-		return !empty($skins) ? $skins : array('moono','kama');
+		return !empty($skins) ? $skins : array('allyfirst','moono','kama');
 	}
 
 	public function upload_options() {
