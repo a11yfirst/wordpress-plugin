@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 <?php if ( !defined('ABSPATH')){ exit; } // Exit if accessed directly
 /*
 Copyright (c) 2003-2015, CKSource - Frederico Knabben. All rights reserved.
@@ -115,7 +114,6 @@ For licensing, see LICENSE.md or http://ckeditor.com/license
 		</p>
 	</form>
 </div>
-=======
 <?php if ( !defined('ABSPATH')){ exit; } // Exit if accessed directly
 /*
 Copyright (c) 2003-2015, CKSource - Frederico Knabben. All rights reserved.
@@ -228,4 +226,4 @@ For licensing, see LICENSE.md or http://ckeditor.com/license
 		</p>
 	</form>
 </div>
->>>>>>> e07e207b740242e1a57d939f6b11bf6ffdc89e75
+

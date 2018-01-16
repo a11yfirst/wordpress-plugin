@@ -510,4 +510,3 @@ add_meta_box('dashboard_overview_server', __('Server Information', 'a11yfirstedi
 add_meta_box('dashboard_reset_settings', __('Reset Plugin Settings', 'a11yfirsteditor_wordpress'), 'a11yfirsteditor_reset_settings', 'a11yfirsteditor_overview', 'left', 'core');
 
 a11yfirsteditor_admin_overview();
->>>>>>> e07e207b740242e1a57d939f6b11bf6ffdc89e75

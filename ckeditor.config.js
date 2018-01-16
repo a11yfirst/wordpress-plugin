@@ -15,8 +15,6 @@ CKEDITOR.editorConfig = function(config) {
 	// Protect PHP code tags (<?...?>) so CKEditor will not break them when
 	// switching from Source to WYSIWYG.
 	config.protectedSource.push(/<\?[\s\S]*?\?>/g);
-
-<<<<<<< HEAD
 	config.skin = 'a11yfirst';
 	config.startupFocus = true;
 
@@ -108,15 +106,11 @@ CKEDITOR.editorConfig = function(config) {
     'yi:Yiddish'
   ];
 
-
-=======
->>>>>>> e07e207b740242e1a57d939f6b11bf6ffdc89e75
 	// Define toolbars, you can remove or add buttons.
 	// List of all buttons is here: http://docs.cksource.com/ckeditor_api/symbols/CKEDITOR.config.html#.toolbar_Full
 
 	// WordPress basic toolbar
 	config.toolbar_WordpressBasic = [
-<<<<<<< HEAD
         { name: 'heading', items: ['Heading'] },
         { name: 'list', items: ['NumberedList', 'BulletedList', 'Indent', 'Outdent'] },
         { name: 'link', items: ['Link', 'Unlink', 'Anchor'] },
@@ -168,7 +162,7 @@ CKEDITOR.editorConfig = function(config) {
 
 	// Simplify the dialog windows.
 	config.removeDialogTabs = 'image:advanced;link:advanced';
-=======
+
 		{ name: 'basicstyles', groups: [ 'basicstyles', 'cleanup' ], items: [ 'Bold', 'Italic', 'Strike', '-', 'RemoveFormat' ] },
 		{ name: 'paragraph', groups: [ 'list', 'indent', 'blocks', 'align', 'bidi' ], items: [ 'Blockquote', '-', 'JustifyLeft', 'JustifyCenter', 'JustifyRight'] },
 		{ name: 'links', items: [ 'Link', 'Unlink' ] },
@@ -203,5 +197,4 @@ CKEDITOR.editorConfig = function(config) {
 	// mediaembed plugin
 	// config.extraPlugins += (config.extraPlugins ? ',mediaembed' : 'mediaembed' );
 	// CKEDITOR.plugins.addExternal('mediaembed', ckeditorSettings.pluginPath + 'plugins/mediaembed/');
->>>>>>> e07e207b740242e1a57d939f6b11bf6ffdc89e75
 };

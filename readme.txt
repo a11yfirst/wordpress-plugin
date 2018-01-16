@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 ﻿=== CKEditor for WordPress ===
 Contributors: wiktor, vokiel, michal_cksource, dczepierga, Dean Lee
 Tags: post, wysiwyg, CKEditor, FCKeditor, editor, rich text, rte, rich text editor
@@ -550,4 +550,3 @@ When upgrading from CKEditor For WordPress 3.6.3 to **CKEditor For WordPress 4.0
 = V1.0 Beta - 10.03.2010 =
 
 * Inital beta release
->>>>>>> e07e207b740242e1a57d939f6b11bf6ffdc89e75
