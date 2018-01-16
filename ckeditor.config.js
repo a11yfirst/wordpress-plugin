@@ -16,6 +16,7 @@ CKEDITOR.editorConfig = function(config) {
 	// switching from Source to WYSIWYG.
 	config.protectedSource.push(/<\?[\s\S]*?\?>/g);
 
+<<<<<<< HEAD
 	config.skin = 'a11yfirst';
 	config.startupFocus = true;
 
@@ -108,11 +109,14 @@ CKEDITOR.editorConfig = function(config) {
   ];
 
 
+=======
+>>>>>>> e07e207b740242e1a57d939f6b11bf6ffdc89e75
 	// Define toolbars, you can remove or add buttons.
 	// List of all buttons is here: http://docs.cksource.com/ckeditor_api/symbols/CKEDITOR.config.html#.toolbar_Full
 
 	// WordPress basic toolbar
 	config.toolbar_WordpressBasic = [
+<<<<<<< HEAD
         { name: 'heading', items: ['Heading'] },
         { name: 'list', items: ['NumberedList', 'BulletedList', 'Indent', 'Outdent'] },
         { name: 'link', items: ['Link', 'Unlink', 'Anchor'] },
@@ -164,4 +168,40 @@ CKEDITOR.editorConfig = function(config) {
 
 	// Simplify the dialog windows.
 	config.removeDialogTabs = 'image:advanced;link:advanced';
+=======
+		{ name: 'basicstyles', groups: [ 'basicstyles', 'cleanup' ], items: [ 'Bold', 'Italic', 'Strike', '-', 'RemoveFormat' ] },
+		{ name: 'paragraph', groups: [ 'list', 'indent', 'blocks', 'align', 'bidi' ], items: [ 'Blockquote', '-', 'JustifyLeft', 'JustifyCenter', 'JustifyRight'] },
+		{ name: 'links', items: [ 'Link', 'Unlink' ] },
+		{ name: 'insert', items: [ 'Image', 'SpecialChar' ] }
+	];
+
+	// The equivalent of "WordpressFull" toolbar, defined in a way that makes adding buttons from plugins easier.
+	config.toolbarGroups = [
+		{ name: 'document',    groups: [ 'mode', 'document', 'doctools' ] },
+		{ name: 'clipboard',   groups: [ 'clipboard', 'undo' ] },
+		{ name: 'editing',     groups: [ 'find', 'selection', 'spellchecker' ] },
+		// { name: 'forms' },
+		'/',
+		{ name: 'paragraph',   groups: [ 'list', 'indent', 'blocks', 'align', 'bidi' ] },
+		{ name: 'links' },
+		{ name: 'insert' },
+		{ name: 'wordpress' },
+		'/',
+		{ name: 'basicstyles', groups: [ 'basicstyles', 'cleanup' ] },
+		{ name: 'styles' },
+		{ name: 'colors' },
+		{ name: 'tools' },
+		{ name: 'about' }
+	];
+
+	// Remove buttons in "WordpressFull" toolbar
+	config.WordpressFull_removeButtons = 'Save,NewPage,Preview,Print,Templates,CreateDiv,PageBreak,Styles';
+
+	//IE: remove border of image when is as a link
+	config.extraCss = "a img { border: 0px\\9; }";
+
+	// mediaembed plugin
+	// config.extraPlugins += (config.extraPlugins ? ',mediaembed' : 'mediaembed' );
+	// CKEDITOR.plugins.addExternal('mediaembed', ckeditorSettings.pluginPath + 'plugins/mediaembed/');
+>>>>>>> e07e207b740242e1a57d939f6b11bf6ffdc89e75
 };
