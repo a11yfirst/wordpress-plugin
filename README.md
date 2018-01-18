@@ -2,7 +2,7 @@ A11yFirst Editor Wordpress Plugin
 ==================================
 
 This plugin is in the process of development. 
-For most updated code, please visit https://github.com/a11ydoer/WordPress-Plugin
+For most updated code, please visit https://github.com/a11ydoer/a11yfirsteditor
 
 ## Goals
 
