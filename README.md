@@ -40,7 +40,7 @@ Live demo is available at <a href="https://a11yfirst.library.illinois.edu/">http
 2. Rename the folder name, A11yFirst editor" to distinguish from other wordpress plugin for now.(This step would not be neceesary soon.)
 2. Upload this plugin to the `/wp-content/plugins/` directory. For more info, please see WordPress documentation, how to installing plugin - [Manual Plugin Installation information]( https://codex.wordpress.org/Managing_Plugins#Installing_Plugins)
 2. Activate the plugin through the 'Plugins' menu in WordPress. For more info, [how to activate a plugin in WordPress](https://psdtowp.net/resources/wordpress-plugins/how-to-activate-plugin-wordpress.html)
-3. Go to A11yFirst Editor menu with [icon](https://wordpress-dev.library.illinois.edu/a11yfirst/wp-content/plugins/a11yfirst/images/menuicon.gif) and select "Basic Settings". Make sure to select 1)"A11yfirst" in the "Select the skin to load" and 2)"Wordpressbasic" for "Editor toolbar" under Post/Page Editor options
+3. Go to A11yFirst Editor menu with [Project logo icon](https://a11yfirst.library.illinois.edu/images/allymascot300.png) and select "Basic Settings". Make sure to select 1)"A11yfirst" in the "Select the skin to load" and 2)"Wordpressbasic" for "Editor toolbar" under Post/Page Editor options
 4. Create a page or a post to see A11yFirst editor toolbar.
 5. Happy accessible content creation!
 
