@@ -1,9 +1,6 @@
 A11yFirst Editor Wordpress Plugin 
 ==================================
-This plugin replaces the default WordPress editor with <a href="https://a11yfirst.library.illinois.edu/demo/distribution/custom/testdrive.html">A11yFirst editor,</a> which is built on [CKEditor](http://ckeditor.com)
-
-
-More information about A11yFirst project, please visit [A11yFirst Project site](https://a11yfirst.library.illinois.edu/)
+This plugin replaces the default WordPress editor with <a href="https://a11yfirst.library.illinois.edu/demo/distribution/custom/testdrive.html">A11yFirst editor,</a> which is built on [CKEditor](http://ckeditor.com) For more information, please visit [A11yFirst Project site](https://a11yfirst.library.illinois.edu/),
 [Project code repositories](https://github.com/a11yfirst) and [distribution repo](https://github.com/a11yfirst/distribution)
 
 * Tags: accessibility, post, wysiwyg, CKEditor, A11yFirst, editor, rich text, rte, rich text editor, content authoring
@@ -57,16 +54,17 @@ Anyone is welcome to contribute.
 ## Changelog
 
 * Inital beta release
-= V0.6.0 Beta - 1.03.2018 =
+V0.6.0 Beta - 1.03.2018
 
+## Contributors
+Contributors: JaEun Jemma Ku, Robert Slater, Nicholas Hoyt
 
-### License
+This worked is based on the work of <a href="https://wordpress.org/plugins/ckeditor-for-wordpress/">CKEditor WordPress Plugin</a> by wiktor, vokiel, michal_cksource, dczepierga, Dean Lee.
+
+## License
 
 Licensed under the GPL license. 
 License URI: http://www.gnu.org/licenses/gpl.html
 
-### Contributors
-Contributors: JaEun Jemma Ku, Robert Slater, Nicholas Hoyt
 
-This worked is based on the work of <a href="https://wordpress.org/plugins/ckeditor-for-wordpress/">CKEditor WordPress Plugin</a> by wiktor, vokiel, michal_cksource, dczepierga, Dean Lee.
 
