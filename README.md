@@ -2,8 +2,11 @@ A11yFirst Editor Wordpress Plugin
 ==================================
 This plugin replaces the default WordPress editor with <a href="https://a11yfirst.library.illinois.edu/demo/distribution/custom/testdrive.html">A11yFirst editor,</a> which is built on [CKEditor](http://ckeditor.com)
 
-More information about A11yFirst project, please visit https://a11yfirst.library.illinois.edu/
-Project code repositories are located at https://github.com/a11yfirst with <a href="https://github.com/a11yfirst/distribution">distribution repo.</a>
+
+More information about A11yFirst project, please visit [A11yFirst Project site](https://a11yfirst.library.illinois.edu/)
+[Project code repositories](https://github.com/a11yfirst) and [distribution repo](https://github.com/a11yfirst/distribution)
+
+* Tags: accessibility, post, wysiwyg, CKEditor, A11yFirst, editor, rich text, rte, rich text editor, content authoring
 
 ## Announcement
 
@@ -24,10 +27,15 @@ A11yFirst Editor v0.6.0 is currently incorporated into current WordPress plugin.
 
 Live demo is available at <a href="https://a11yfirst.library.illinois.edu/">https://a11yfirst.library.illinois.edu/</a>.
 
-### Features =
+### Features
 
 * Replace the default WordPress editor with A11yFirst editor based on CKEditor Source
 * Ensure accessible content creation
+
+### Testing
+
+* Tested for Wordpress Version: 4.8.5
+* Tested for Multi Wordpress site
 
 ## How to Install A11yFirst Plugin to Wordpress
 
@@ -56,10 +64,10 @@ Anyone is welcome to contribute.
 
 Licensed under the GPL license. 
 
-=== A11yFirst Editor Plugin for WordPress ===
+### Contributors
 Contributors: JaEun Jemma Ku, Robert Slater, Nicholas Hoyt
+
 This worked is based on the work of <a href="https://wordpress.org/plugins/ckeditor-for-wordpress/">CKEditor WordPress Plugin</a> by wiktor, vokiel, michal_cksource, dczepierga, Dean Lee.
-Tags: post, wysiwyg, CKEditor, accessibility, editor, rich text, rte, rich text editor, content authoring
-Tested up to: 4.8.5
+
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl.html
