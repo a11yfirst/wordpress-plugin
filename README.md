@@ -22,7 +22,7 @@ A11yFirst Editor v0.6.0 is currently incorporated into current WordPress plugin.
 
 ### Demo
 
-Live demo is available at <a href="https://a11yfirst.library.illinois.edu/">https://a11yfirst.library.illinois.edu/</a>.
+Live demo is available at <a href="https://a11yfirst.library.illinois.edu/">https://a11yfirst.library.illinois.edu/</a>. Please click "try it out" to see recent updates.
 
 ### Features
 
@@ -38,9 +38,9 @@ Live demo is available at <a href="https://a11yfirst.library.illinois.edu/">http
 
 1. Down load the file from A11yFirst Project <a href="https://github.com/a11yfirst/wordpress-plugin">Wordpress Plugin Repo</a>
 2. Rename the folder name, A11yFirst editor" to distinguish from other wordpress plugin for now.(This step would not be neceesary soon.)
-2. Upload this plugin to the `/wp-content/plugins/` directory. For more info, please see WordPress documentation, how to installing plugin - Manual Plugin Installation information. https://codex.wordpress.org/Managing_Plugins#Installing_Plugins
-2. Activate the plugin through the 'Plugins' menu in WordPress. For more info, how to activate a plugin in WordPress, https://psdtowp.net/resources/wordpress-plugins/how-to-activate-plugin-wordpress.html
-3. Go to A11yFirst Editor menu with icon <img src="https://wordpress-dev.library.illinois.edu/a11yfirst/wp-content/plugins/a11yfirst/images/menuicon.gif"> and select "Basic Settings". Make sure to select 1)"A11yfirst" in the "Select the skin to load" and 2)"Wordpressbasic" for "Editor toolbar" under Post/Page Editor options
+2. Upload this plugin to the `/wp-content/plugins/` directory. For more info, please see WordPress documentation, how to installing plugin - [Manual Plugin Installation information]( https://codex.wordpress.org/Managing_Plugins#Installing_Plugins)
+2. Activate the plugin through the 'Plugins' menu in WordPress. For more info, [how to activate a plugin in WordPress](https://psdtowp.net/resources/wordpress-plugins/how-to-activate-plugin-wordpress.html)
+3. Go to A11yFirst Editor menu with [icon](https://wordpress-dev.library.illinois.edu/a11yfirst/wp-content/plugins/a11yfirst/images/menuicon.gif) and select "Basic Settings". Make sure to select 1)"A11yfirst" in the "Select the skin to load" and 2)"Wordpressbasic" for "Editor toolbar" under Post/Page Editor options
 4. Create a page or a post to see A11yFirst editor toolbar.
 5. Happy accessible content creation!
 
