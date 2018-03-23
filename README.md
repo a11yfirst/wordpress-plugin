@@ -1,6 +1,6 @@
 A11yFirst Editor Wordpress Plugin 
 ==================================
-This plugin replaces the default WordPress editor with <a href="https://a11yfirst.library.illinois.edu/demo/distribution/custom/testdrive.html">A11yFirst editor,</a>, which is built on [CKEditor](http://ckeditor.com)
+This plugin replaces the default WordPress editor with <a href="https://a11yfirst.library.illinois.edu/demo/distribution/custom/testdrive.html">A11yFirst editor,</a> which is built on [CKEditor](http://ckeditor.com)
 
 More information about A11yFirst project, please visit https://a11yfirst.library.illinois.edu/
 Project code repositories are located at https://github.com/a11yfirst with <a href="https://github.com/a11yfirst/distribution">distribution repo.</a>
@@ -11,9 +11,7 @@ A11yFirst Editor v0.6.0 is currently incorporated into current WordPress plugin.
 
 ## About plugin
 
-== Description ==
-
-= What is A11yFirst Editor? =
+### What is A11yFirst Editor?
 
 <strong>A11yFirst Editor</strong> is a text editor to be used inside web pages. It's a WYSIWYG editor, which means the text being edited looks as similar as possible to the page once published. In particular, goals of A11yFirst Editor are
 
@@ -22,15 +20,16 @@ A11yFirst Editor v0.6.0 is currently incorporated into current WordPress plugin.
 * Teach authors about accessibility.
 * Change how people think about creating content.
 
+### Demo
 
 Live demo is available at <a href="https://a11yfirst.library.illinois.edu/">https://a11yfirst.library.illinois.edu/</a>.
 
-= Features =
+### Features =
 
 * Replace the default WordPress editor with A11yFirst editor based on CKEditor Source
 * Ensure accessible content creation
 
-== Installation ==
+## How to Install A11yFirst Plugin to Wordpress
 
 1. Down load the file from A11yFirst Project <a href="https://github.com/a11yfirst/wordpress-plugin">Wordpress Plugin Repo</a>
 2. Rename the folder name, A11yFirst editor" to distinguish from other wordpress plugin for now.(This step would not be neceesary soon.)
@@ -40,18 +39,18 @@ Live demo is available at <a href="https://a11yfirst.library.illinois.edu/">http
 4. Create a page or a post to see A11yFirst editor toolbar.
 5. Happy accessible content creation!
 
-= Maintenance status =
+## Maintenance status
 
 The plugin will be maintained as new release comes out. A11yFirst Editor v0.6.0 is incorporated into current WordPress plugin and <strong>it wil be updated with v.0.7.2 by the end of March 2018.</strong> If you would like to contribute the development of A11yFirst Plugins or just help in developing a component used, please contact me: jku /at/ illinois.edu
 
 For anyone willing to contribute the A11yFirst plugin: the code is now <a href="https://github.com/a11yfirst/wordpress-plugin">available on GitHub</a>.
 Anyone is welcome to contribute. 
 
-== Changelog ==
+## Changelog
 
 * Inital beta release
 = V0.6.0 Beta - 1.03.2018 =
-## How to Install A11yFirst Plugin to Wordpress
+
 
 ### License
 
@@ -64,4 +63,3 @@ Tags: post, wysiwyg, CKEditor, accessibility, editor, rich text, rte, rich text 
 Tested up to: 4.8.5
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl.html
-This plugin replaces the default WordPress editor with <a href="http://ckeditor.com/">CKEditor</a>.
