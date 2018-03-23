@@ -63,11 +63,10 @@ Anyone is welcome to contribute.
 ### License
 
 Licensed under the GPL license. 
+License URI: http://www.gnu.org/licenses/gpl.html
 
 ### Contributors
 Contributors: JaEun Jemma Ku, Robert Slater, Nicholas Hoyt
 
 This worked is based on the work of <a href="https://wordpress.org/plugins/ckeditor-for-wordpress/">CKEditor WordPress Plugin</a> by wiktor, vokiel, michal_cksource, dczepierga, Dean Lee.
 
-License: GPLv2 or later
-License URI: http://www.gnu.org/licenses/gpl.html
