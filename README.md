@@ -46,7 +46,7 @@ Live demo is available at <a href="https://a11yfirst.library.illinois.edu/">http
 
 ## Maintenance status
 
-The plugin will be maintained as new release comes out. A11yFirst Editor v0.6.0 is incorporated into current WordPress plugin and <strong>it wil be updated with v.0.7.2 by the end of APril 2018.</strong> If you would like to contribute the development of A11yFirst Plugins or just help in developing a component used, please contact me: jku /at/ illinois.edu
+The plugin will be maintained as new release comes out. A11yFirst Editor v0.6.0 is incorporated into current WordPress plugin and <strong>it wil be updated with v.0.7.2 by the end of April 2018.</strong> If you would like to contribute the development of A11yFirst Plugins or just help in developing a component used, please contact me: jku /at/ illinois.edu
 
 For anyone willing to contribute the A11yFirst plugin: the code is now <a href="https://github.com/a11yfirst/wordpress-plugin">available on GitHub</a>.
 Anyone is welcome to contribute. 
