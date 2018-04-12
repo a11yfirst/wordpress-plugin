@@ -192,7 +192,7 @@ function ckeditor_overview_configuration() {
 	<div>
 	<table class="form-table">
 		<tr valign="top">
-			<td>A11yFirst Editor Plugin Version</td><td>0.6.0<!-- <?php echo $GLOBALS['ckeditor_plugin_version']; ?> --></td>
+			<td>A11yFirst Editor Plugin Version</td><td>0.7.2 (March 2018)</td>
 		</tr>
 		<tr valign="top">
 			<td>A11yFirst Editor Code Release</td><td>https://github.com/a11yfirst/distribution/releases</td>
