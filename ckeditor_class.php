@@ -29,11 +29,11 @@ class ckeditor_wordpress {
 		$this->plugin_path = plugins_url( null, __FILE__  ).'/';
 
 		define('CKEDITOR_PLUGIN_URL', $this->plugin_path);
-		$this->ckeditor_path = $this->plugin_path . 'ckeditor/';
+		$this->ckeditor_path = $this->plugin_path . 'a11yfirst_editor/';
 		$this->editable_files = array(
-			'ckeditor.config.js' => dirname(__FILE__) . '/ckeditor/config.js',
-			'ckeditor.styles.js' => dirname(__FILE__) . '/ckeditor.styles.js',
-			'ckeditor.templates.js' => dirname(__FILE__) . '/ckeditor.templates.js',
+			'ckeditor.config.js' => dirname(__FILE__) . '/custom/config.js',
+			'ckeditor.styles.js' => dirname(__FILE__) . '/styles.js',
+		//	'ckeditor.templates.js' => dirname(__FILE__) . '/ckeditor.templates.js',
 		);
 		$this->default_options = array(
 			'appearance' => array(
@@ -90,11 +90,14 @@ class ckeditor_wordpress {
 				'p_break_after_close' => 't',
 			),
 			'plugins' => array(
+				
 				'a11ychecker' => 't',
                 'a11yfirsthelp' => 't',
                 'a11yformat' => 't',  
                 'a11yheading' => 't',
-                'a11ystylescombo' => 't',
+				'a11ystylescombo' => 't',
+				'a11ylink' => 't',
+				'a11yhelp' => 't',
 				'autogrow' => 'f',
 				'tableresize' => 'f',
 				'wpgallery' => 'f',

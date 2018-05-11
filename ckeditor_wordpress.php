@@ -30,7 +30,7 @@ function ckeditor_init(){
 
 	add_action( 'wp_print_scripts', array(&$ckeditor_wordpress, 'add_comment_js'));
 	//add_filter( 'ckeditor_external_plugins', array(&$ckeditor_wordpress, 'ckeditor_wpmore_plugin') );
-	add_filter( 'ckeditor_buttons', array(&$ckeditor_wordpress, 'ckeditor_wpmore_button') );
+	//add_filter( 'ckeditor_buttons', array(&$ckeditor_wordpress, 'ckeditor_wpmore_button') );
 	//add_filter( 'ckeditor_external_plugins', array(&$ckeditor_wordpress, 'ckeditor_wpgallery_plugin') );
 	add_filter( 'ckeditor_load_lang_options', array(&$ckeditor_wordpress, 'ckeditor_load_lang_options') );
 

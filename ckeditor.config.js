@@ -1,12 +1,9 @@
 /*
-Copyright (c) 2003-2015, CKSource - Frederico Knabben. All rights reserved.
-For licensing, see LICENSE.md or http://ckeditor.com/license
+Copyright (c) 2017-2018, JaEun Jemma Ku - All rights reserved.
+This configuration is based on V 0.7.2 release, March 2018. 
+Referred configuration file is located at https://github.com/a11yfirst/distribution/blob/master/config.js
+change logs are available from https://github.com/a11yfirst/distribution/blob/master/custom/CHANGELOG.md
 */
-
-/**
- * Documentation:
- * http://docs.cksource.com/ckeditor_api/symbols/CKEDITOR.config.html
- */
 
 CKEDITOR.editorConfig = function(config) {
 	// The minimum editor width, in pixels, when resizing it with the resize handle.
@@ -18,7 +15,7 @@ CKEDITOR.editorConfig = function(config) {
 
 	config.skin = 'a11yfirst';
 	config.startupFocus = true;
-
+   // plugin name needs to be added here to show up in toolbar configuaration
 
     config.plugins =
     'a11ychecker,' +
@@ -29,6 +26,7 @@ CKEDITOR.editorConfig = function(config) {
     'blockquote,' +
     'button,' +
     'clipboard,' +
+    'codesnippet,' +
     'contextmenu,' +
     'dialog,' +
     'dialogui,' +
@@ -38,11 +36,13 @@ CKEDITOR.editorConfig = function(config) {
     'fakeobjects,' +
     'find,' +
     'floatpanel,' +
+    'htmlwriter,' +
     'image,' +
     'indent,' +
     'indentlist,' +
+    'justify,' +
     'language,' +
-    'link,' +
+    //'link,' +
     'list,' +
     'listblock,' +
     'liststyle,' +
@@ -71,8 +71,8 @@ CKEDITOR.editorConfig = function(config) {
 
     config.extraPlugins =
     'a11yfirsthelp,' +
-    'a11yformat,' +
     'a11yheading,' +
+    'a11ylink,' +
     'a11ystylescombo';
 
     config.language_list = [
@@ -108,60 +108,49 @@ CKEDITOR.editorConfig = function(config) {
   ];
 
 
-	// Define toolbars, you can remove or add buttons.
-	// List of all buttons is here: http://docs.cksource.com/ckeditor_api/symbols/CKEDITOR.config.html#.toolbar_Full
-
-	// WordPress basic toolbar
+    // A11yfirst Editor(Wordpress basic) toolbar - the order of the name decides the way tool is shown in the toolbar.
+    // Please refer this configuration file, https://github.com/a11yfirst/distribution/blob/master/custom/config.js
 	config.toolbar_WordpressBasic = [
-        { name: 'heading', items: ['Heading'] },
-        { name: 'list', items: ['NumberedList', 'BulletedList', 'Indent', 'Outdent'] },
-        { name: 'link', items: ['Link', 'Unlink', 'Anchor'] },
-        { name: 'blockformat', items: ['BlockFormat'] },
-        { name: 'blockquote', items: ['Blockquote', 'ShowBlocks'] },
-        { name: 'paragraph', items: ['JustifyLeft', 'JustifyCenter', 'JustifyRight'] },
-        { name: 'misc1', items: ['Image', 'Table'] },
-        { name: 'a11ychecker', items: ['A11ychecker'] },
-        { name: 'a11yfirsthelp', items: ['A11yFirstHelp'] },
+        { name: 'heading',        items: [ 'Heading' ] },
+        { name: 'list',           items: [ 'NumberedList', 'BulletedList', 'Indent', 'Outdent' ] },
+        { name: 'otherblocks',    items: [ 'Blockquote', 'CodeSnippet' ] },
+        { name: 'justify',        items: [ 'JustifyLeft', 'JustifyCenter', 'JustifyRight', 'JustifyBlock' ] },
+        { name: 'misc1',          items: [ 'Image', 'Table' ] },
+        { name: 'showblocks',     items: [ 'ShowBlocks' ] },
+        { name: 'a11yfirsthelp',  items: [ 'A11yFirstHelp' ] },
+    //  { name: 'source',         items: [ 'Source' ] },
         '/',
-        { name: 'undoredo', items: ['Undo', 'Redo'] },
-        { name: 'clipboard', items: ['Cut', 'Copy', 'Paste', 'PasteFromWord'] },
-        { name: 'search', items: ['Find', 'Replace'] },
-        { name: 'basicstyles', items: ['Bold', 'Italic'] },
-        { name: 'removeformat', items: ['RemoveFormat'] },
-        { name: 'inlinestyle', items: ['InlineStyle'] },
-        { name: 'misc2', items: ['Language', 'SpecialChar'] }
-	];
-
-	// Define changes to default configuration here.
-	// For complete reference see:
-	// http://docs.ckeditor.com/#!/api/CKEDITOR.config
-
-	// The toolbar groups arrangement, optimized for two toolbar rows.
-
-	// The equivalent of "WordpressFull" toolbar, defined in a way that makes adding buttons from plugins easier.
-
-	config.toolbarGroups = [
-		{ name: 'clipboard',   groups: [ 'clipboard', 'undo' ] },
-		{ name: 'editing',     groups: [ 'find', 'selection', 'spellchecker' ] },
-		{ name: 'links' },
-		{ name: 'insert' },
-		{ name: 'forms' },
-		{ name: 'tools' },
-		{ name: 'document',	   groups: [ 'mode', 'document', 'doctools' ] },
-		{ name: 'others' },
-		'/',
-		{ name: 'basicstyles', groups: [ 'basicstyles', 'cleanup' ] },
-		{ name: 'paragraph',   groups: [ 'list', 'indent', 'blocks', 'align', 'bidi' ] },
-		{ name: 'styles' },
-		{ name: 'colors' },
-		{ name: 'about' }
-	];
+        { name: 'undoredo',       items: [ 'Undo', 'Redo' ] },
+        { name: 'clipboard',      items: [ 'Cut', 'Copy', 'Paste', 'PasteFromWord' ] },
+        { name: 'search',         items: [ 'Find', 'Replace' ] },
+        { name: 'basicstyles',    items: [ 'Bold', 'Italic' ] },
+        { name: 'inlinestyle',    items: [ 'InlineStyle' ] },
+        { name: 'removeformat',   items: [ 'RemoveFormat' ] },
+        { name: 'a11ylink',       items: [ 'Link', 'Unlink', 'Anchor' ] },
+        { name: 'misc2',          items: [ 'Language', 'SpecialChar' ] },
+        { name: 'a11ychecker',    items: [ 'A11ychecker' ] }
+    ];
+    CKEDITOR.stylesSet.add ( 'default', [
+        { name: 'Strong',           element: 'strong', overrides: 'b' },
+        { name: 'Emphasis',         element: 'em' , overrides: 'i' },
+        { name: 'Marker',           element: 'span', attributes: { 'class': 'marker' } },
+        { name: 'Inline quotation', element: 'q' },
+        { name: 'Cited work',       element: 'cite' },
+        { name: 'Computer code',    element: 'code' },
+        { name: 'Subscript',        element: 'sub' },
+        { name: 'Superscript',      element: 'sup' },
+        { name: 'Deleted Text',     element: 'del' },
+        { name: 'Inserted Text',    element: 'ins' },
+        { name: 'Strikethrough',    element: 'strike' },
+      //  { name: 'Underline',        element: 'u' }
+      ] );
 
 	// Remove buttons in "WordpressBasic" toolbar
-	config.WordpressBasic_removeButtons = 'Bold,Italic,RemoveFormat';
+	config.WordpressBasic_removeButtons = 'Underline,Subscript,Superscript';
     // Set the most common block elements.
-	config.format_tags = 'p;pre;address;div';
+	config.format_tags = 'p;h1;h2;h3;pre';
 
 	// Simplify the dialog windows.
 	config.removeDialogTabs = 'image:advanced;link:advanced';
 };
+
