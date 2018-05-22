@@ -37,7 +37,7 @@ CKEDITOR.editorConfig = function(config) {
     'find,' +
     'floatpanel,' +
     'htmlwriter,' +
-    'image,' +
+    //'image,' +
     'indent,' +
     'indentlist,' +
     'justify,' +
@@ -73,6 +73,7 @@ CKEDITOR.editorConfig = function(config) {
     'a11yfirsthelp,' +
     'a11yheading,' +
     'a11ylink,' +
+    'a11yimage,'+
     'a11ystylescombo';
 
     config.language_list = [

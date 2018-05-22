@@ -3,7 +3,7 @@
 /*
 Plugin Name: A11yEditor for WordPress
 Plugin URI: https://github.com/a11yfirst/wordpress-plugin
-Description: Replaces the default WordPress editor with <a href="http://ckeditor.com/"> CKEditor</a> For more info, please visit <a href="https://a11yfirst.library.illinois.edu/">A11yFirst Editor project</a> Webstie.
+Description: Replaces the default WordPress editor with <a href="http://ckeditor.com/"> CKEditor</a>. For more info, please visit <a href="https://a11yfirst.library.illinois.edu/">A11yFirst Editor project</a> Webstie.
 Version: 0.8.0(Testing purpose only)
 Author: JaEun Jemma Ku
 Author URI: https://www.library.illinois.edu/bios/jku/
