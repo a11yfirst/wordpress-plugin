@@ -40,8 +40,8 @@ Live demo is available at <a href="https://a11yfirst.library.illinois.edu/">http
 2. Rename the folder name, "a11yfirsteditor" to distinguish from other wordpress plugin for now.(This step would not be neceesary soon.)
 2. Upload this plugin to the `/wp-content/plugins/` directory. For more info, please see WordPress documentation, how to installing plugin - [Manual Plugin Installation information]( https://codex.wordpress.org/Managing_Plugins#Installing_Plugins)
 2. Activate the plugin through the 'Plugins' menu in WordPress. For more info, [how to activate a plugin in WordPress](https://psdtowp.net/resources/wordpress-plugins/how-to-activate-plugin-wordpress.html)
-3. Create a page or a post to see A11yFirst editor toolbar.
-4. Happy accessible content creation!
+
+ Create a page or a post to see A11yFirst editor toolbar. Happy accessible content creation!
 
 ## Maintenance status
 
