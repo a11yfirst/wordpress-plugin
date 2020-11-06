@@ -1,7 +1,7 @@
 A11yFirst Editor Wordpress Plugin 
 ==================================
 
-THIS WORDPRESS PLUGIN IS CURRENTLY BROKEN AND IT IS NOT REFLECTING THE [CURRENT RELEASE](https://github.com/a11yfirst/distribution) YET. MORE UPDATE/ANOUNCEMENT WILL BE MADE ON DECEMBER 2018.
+THIS WORDPRESS PLUGIN IS CURRENTLY BROKEN AND IT IS NOT REFLECTING THE [CURRENT RELEASE](https://github.com/a11yfirst/distribution) YET. MORE UPDATE/ANOUNCEMENT WILL BE MADE ON 2020.
 
 This plugin replaces the default WordPress editor with <a href="https://a11yfirst.library.illinois.edu/demo/distribution/custom/testdrive.html">A11yFirst editor,</a> which is built on [CKEditor](http://ckeditor.com) For more information, please visit [A11yFirst Project site](https://a11yfirst.library.illinois.edu/),
 [Project code repositories](https://github.com/a11yfirst) and [distribution repo](https://github.com/a11yfirst/distribution)
